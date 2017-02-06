@@ -2,4 +2,15 @@
   "name": "MongoDB Practice Environment",
   "description": "please help me",
   "main": "main.js",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VNilla/Mongo-Test"
+  }
 }
