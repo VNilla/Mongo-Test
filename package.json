@@ -1,3 +1,5 @@
 {
-  "name": "MongoDB Practice Environment"
+  "name": "MongoDB Practice Environment",
+  "description": "please help me",
+  "main": "main.js",
 }
