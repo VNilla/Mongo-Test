@@ -1,9 +1,13 @@
 {
   "name": "MongoDB Practice Environment",
   "description": "please help me",
-  "main": "main.js",
   "engines": {
     "node": "5.9.1"
+  },
+
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
   },
   "dependencies": {
     "ejs": "2.4.1",
