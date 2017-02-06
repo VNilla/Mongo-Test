@@ -1,13 +1,19 @@
-var express = require('express');
-var app = express();
+try {
 
-app.set('port', (process.env.PORT || 5000));
+  var express = require('express');
+  var app = express();
 
-app.use(express.static(__dirname + '/public'));
+  app.set('port', (process.env.PORT || 5000));
 
-app.set('views', __dirname + '/views');
-app.set('view engine', 'ejs');
+  app.use(express.static(__dirname + '/public'));
 
-app.get('/', function(request, response) {
-  response.render('pages/index');
-});
+  app.set('views', __dirname + '/views');
+  app.set('view engine', 'ejs');
+
+  app.get('/', function(request, response) {
+    response.render('pages/index');
+  });
+}
+catch(e) {
+  console.log(e);
+}
